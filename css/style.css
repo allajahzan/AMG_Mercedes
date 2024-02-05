@@ -1,0 +1,1309 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+#navbar-section {
+    background-color: black;
+    width: 100%;
+    height: 95px;
+    position: relative;
+    z-index: 1;
+    border-style: solid;
+    border-color: #00f5d0;
+    border-width: 0px 0px 5px 0px;
+}
+
+#navbar-section .navbar {
+    padding: 14px 0px 20px 73px;
+}
+
+#navbar-section img {
+    width: 13.6%;
+    margin-right: 52px;
+}
+
+#navbar-section .nav-items {
+    display: inline;
+    position: relative;
+    bottom: 6.5px;
+}
+
+#navbar-section .a1 {
+    text-decoration: none;
+    margin-right: 22px;
+    font-size: 16.5px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#navbar-section .icon-expand {
+    position: relative;
+    top: 10px;
+    font-size: 28px;
+}
+
+#navbar-section .a1:hover {
+    color: #00f5d0;
+}
+
+#navbar-section .nav-items-extra {
+    display: inline;
+    position: absolute;
+    top: 8px;
+    right: 13px;
+}
+
+#navbar-section .a2 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-right: 26px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+}
+
+#navbar-section .icon-search {
+    position: relative;
+    top: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+#navbar-section .a2:hover,
+#navbar-section .icon-search:hover {
+    color: #00f5d0;
+}
+
+/*  image- section---------------------- */
+
+#image-section {
+    height: 625px;
+}
+
+#image-section p,
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#image-section .card {
+    width: 26.25%;
+    height: 623px;
+    background: white;
+    position: relative;
+    z-index: 5;
+    border-bottom-right-radius: 35px;
+}
+
+#image-section .div1 {
+    padding: 20px;
+}
+
+#image-section .icon-dot {
+    font-size: 8px;
+    color: white;
+    background-color: white;
+    border-radius: 200px;
+    height: 7px;
+    width: 1.7%;
+    position: relative;
+    left: -4px;
+}
+
+#image-section p {
+    position: absolute;
+    top: 14px;
+    left: 26px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#image-section h2 {
+    position: relative;
+    top: 15px;
+    left: -4px;
+    font-weight: 900;
+}
+
+#image-section h1 {
+    position: relative;
+    top: -6px;
+    left: -4px;
+    font-weight: bold;
+}
+
+/* home card---------- */
+#image-section .home {
+    position: relative;
+    height: 216.8px;
+    background: #00f5d0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#image-section .home h4 {
+    font-size: 18px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: 900;
+}
+
+#image-section .home h2 {
+    color: black;
+}
+
+#image-section .home h1 {
+    color: black;
+}
+
+/* date card---------- */
+
+#image-section .date {
+    position: relative;
+    height: 171px;
+    background: black;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+#image-section .date .icon-dot {
+    background-color: #00f5d0;
+}
+
+#image-section .div-time {
+    display: flex;
+    position: relative;
+    top: 57px;
+    color: white;
+}
+
+#image-section .div-time .div2 {
+    width: 100%;
+    height: 100%;
+}
+
+#image-section .date h1,
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#image-section .date h2 {
+    color: #00f5d0;
+}
+
+#image-section .date h4 {
+    font-size: 13px;
+    position: relative;
+    left: -4px;
+    line-height: 0px;
+}
+
+/* weather card---------- */
+#image-section .weather {
+    position: relative;
+    height: 155.5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#image-section .weather img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#image-section .weather .div1 {
+    position: absolute;
+    width: 90%;
+    top: 0px;
+}
+
+#image-section .weather p {
+    color: white;
+}
+
+#image-section .weather h1 {
+    color: white;
+}
+
+#image-section .weather h2 {
+    color: white;
+}
+
+#image-section .weather h3 {
+    color: white;
+}
+
+/* name card------------- */
+#image-section .name {
+    position: relative;
+    height: 82px;
+    background: black;
+    font-family: 'Nunito Sans', sans-serif;
+    border-bottom-right-radius: 35px;
+}
+
+#image-section .name .div-name {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 45px;
+}
+
+#image-section .name .icon-dot {
+    background-color: #00f5d0;
+}
+
+#image-section .name .p1,
+.p8 {
+    color: #00f5d0;
+}
+
+#image-section .name p {
+    color: white;
+}
+
+#image-section .name h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* starting image----------------- */
+
+#image-section .car1 {
+    width: 76.4%;
+    position: absolute;
+    top: 25.5px;
+    right: 0px;
+    z-index: 0;
+}
+
+/* stories card---------- */
+
+#image-section .stories-card {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -58px;
+    z-index: 5;
+}
+
+#image-section .animation-card {
+    position: relative;
+    background: #00f5d0;
+    color: black;
+    padding: 12px 34.5px;
+    border-top-right-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    overflow: hidden;
+
+}
+
+#image-section .animation-card h3 {
+    margin: 0px;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+
+#image-section .animation-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #00a39e;
+    transition: 0.3s;
+}
+
+#image-section .animation-card:hover::before {
+    left: 0%;
+}
+
+#image-section .animation-card:hover {
+    color: white;
+}
+
+#image-section .icon-arrow {
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+}
+
+/*  section storeis-------------------- */
+
+#stories1 {
+    position: relative;
+    background: black;
+    border-top: #00f5d0;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    height: 569px;
+}
+
+#stories1 .text {
+    padding: 10px 20px 10px 25px;
+    height: 92px;
+    width: 25.5%;
+    position: absolute;
+    bottom: 48px;
+    background: #00f5d0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 0px;
+    border-bottom-right-radius: 40px;
+    color: #000;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+#stories1 .text::before {
+    /*animation----------- */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #00a39e;
+    transition: 0.3s;
+}
+
+#stories1 h2 {
+    line-height: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    position: relative;
+}
+
+#stories1 p {
+    position: relative;
+}
+
+#stories1 .icon-arrow {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+#stories1 .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div1 one----------------------------- */
+
+#stories1 .div1-one {
+    overflow: hidden;
+    /*animation----------- */
+    width: 66.25%;
+    height: 568px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories1 .img1 {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    object-fit: cover;
+    transition: 0.5s;
+    /*animation----------- */
+}
+
+/* hover for div-one */
+#stories1 .div1-one:hover .text::before {
+    /*animation----------- */
+    left: 0%;
+}
+
+#stories1 .div1-one:hover .text {
+    /*animation----------- */
+    color: white;
+}
+
+#stories1 .div1-one:hover .img1 {
+    /*animation----------- */
+    transform: scale(1.02);
+}
+
+/* div1 two------------------------------ */
+#stories1 .div1-two {
+    overflow: hidden;
+    /*animation----------- */
+    width: 32.45%;
+    height: 568px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories1 .img2 {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    object-fit: cover;
+    transition: 0.5s;
+    /*animation----------- */
+}
+
+/* hover for div-one */
+#stories1 .div1-two:hover .text::before {
+    /*animation----------- */
+    left: 0%;
+}
+
+#stories1 .div1-two:hover .text {
+    /*animation----------- */
+    color: white;
+}
+
+#stories1 .div1-two:hover .img2 {
+    /*animation----------- */
+    transform: scale(1.02);
+}
+
+/* section stories 2 */
+
+#stories2 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#stories2 .text {
+    padding: 10px 20px 10px 25px;
+    height: 92px;
+    width: 25.5%;
+    position: absolute;
+    bottom: 48px;
+    background: #00f5d0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 0px;
+    border-bottom-right-radius: 40px;
+    color: #000;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+#stories2 .text::before {
+/*animation----------- */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #00a39e;
+    transition: 0.3s;
+}
+
+#stories2 h2 {
+    line-height: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    position: relative;
+}
+
+#stories2 p {
+    position: relative;
+}
+
+#stories2 .icon-arrow {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+#stories2 .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div1 one----------------------------- */
+
+#stories2 .div1-one {
+    overflow: hidden;
+    /*animation----------- */
+    width: 32.45%;
+    height: 568px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories2 .img1 {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    object-fit: cover;
+    transition: 0.5s;
+    /*animation----------- */
+}
+
+/* hover for div-one */
+#stories2 .div1-one:hover .text::before {
+    /*animation----------- */
+    left: 0%;
+}
+
+#stories2 .div1-one:hover .text {
+    /*animation----------- */
+    color: white;
+}
+
+#stories2 .div1-one:hover .img1 {
+    /*animation----------- */
+    transform: scale(1.02);
+}
+
+/* div1 two------------------------------ */
+#stories2 .div1-two {
+    overflow: hidden;
+    /*animation----------- */
+    width: 66.25%;
+    height: 568px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories2 .img2 {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    object-fit: cover;
+    transition: 0.5s;
+    /*animation----------- */
+}
+
+/* hover for div-one */
+#stories2 .div1-two:hover .text::before {
+    /*animation----------- */
+    left: 0%;
+}
+
+#stories2 .div1-two:hover .text {
+    /*animation----------- */
+    color: white;
+}
+
+#stories2 .div1-two:hover .img2 {
+    /*animation----------- */
+    transform: scale(1.02);
+}
+
+/* section stories 3 */
+
+#stories3 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#stories3 .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stories3 .text {
+    padding: 10px 20px 10px 25px;
+    height: 92px;
+    width: 25.5%;
+    position: absolute;
+    bottom: 48px;
+    background: #00f5d0;
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 0px;
+    border-bottom-right-radius: 40px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+#stories3 .text::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background: #00a39e;
+    transition: 0.3s;
+}
+
+#stories3 h2 {
+    position: relative;
+    line-height: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+#stories3 p{
+    position: relative;
+}
+
+#stories3 .icon-arrow {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+/* div1 -one------------------ */
+
+#stories3 .div1-one {
+    overflow: hidden; /* animation------ */
+    width: 66.25%;
+    height: 565px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories3 .img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1 one hover----------- */
+
+#stories3 .div1-one:hover .text::before{ /* animation------ */
+    left: 0%;
+}
+#stories3 .div1-one:hover .text{ /* animation------ */
+    color: white;
+}
+#stories3 .div1-one:hover .img1{ /* animation------ */
+    transform: scale(1.02);
+}
+
+/* div1 two----------- */
+
+#stories3 .div1-two {
+    overflow: hidden;
+    width: 32.45%;
+    height: 565px;
+}
+
+#stories3 .img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1 -two hover-------------------- */
+
+#stories3 .div1-two:hover .text::before{ /* animation------ */
+    left: 0%;
+}
+#stories3 .div1-two:hover .text{ /* animation------ */
+    color: white;
+}
+#stories3 .div1-two:hover .img2{ /* animation------ */
+    transform: scale(1.02);
+}
+
+
+/* section stories 4 */
+
+#stories4 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#stories4 .text {
+    padding: 10px 20px 10px 25px;
+    height: 92px;
+    width: 25.5%;
+    position: absolute;
+    bottom: 48px;
+    background: #00f5d0;
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 0px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#stories4 .text::before{  /* animation------ */
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background: #00a39e;
+    transition: 0.3s;
+}
+
+#stories4 h2 {
+    position: relative;
+    line-height: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+#stories4 p{
+    position: relative;
+}
+
+#stories4 .icon-arrow {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+#stories4 .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div1-one---------------- */
+#stories4 .div1-one {
+    overflow: hidden;
+    width: 32.45%;
+    height: 570px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories4 .img1 {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1-one hover--------------- */
+
+#stories4 .div1-one:hover .text::before{ /* animation------ */
+    left: 0%;
+}
+#stories4 .div1-one:hover .text{ /* animation------ */
+    color: white;
+}
+#stories4 .div1-one:hover .img1{ /* animation------ */
+    transform: scale(1.02);
+}
+
+/* div1-two-------------- */
+
+#stories4 .div1-two {
+    overflow: hidden;
+    width: 66.25%;
+    height: 570px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories4 .img2 {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1-two hover--------------------- */
+
+#stories4 .div1-two:hover .text::before{ /* animation------ */
+    left: 0%;
+}
+#stories4 .div1-two:hover .text{
+    color: white;
+}
+#stories4 .div1-two:hover .img2{
+    transform: scale(1.02);
+}
+
+/* section stories 5 */
+
+#stories5 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#stories5 .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stories5 .text {
+    padding: 10px 20px 10px 25px;
+    height: 92px;
+    width: 25.5%;
+    position: absolute;
+    bottom: 48px;
+    background: #00f5d0;
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 0px;
+    border-bottom-right-radius: 40px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+#stories5 .text::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background: #00a39e;
+    transition: 0.3s;
+}
+
+#stories5 h2 {
+    position: relative;
+    line-height: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+#stories5 p{
+    position: relative;
+}
+
+#stories5 .icon-arrow {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+/* div1 -one------------------ */
+
+#stories5 .div1-one {
+    overflow: hidden; /* animation------ */
+    width: 66.25%;
+    height: 565px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories5 .img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1 one hover----------- */
+
+#stories5 .div1-one:hover .text::before{ /* animation------ */
+    left: 0%;
+}
+#stories5 .div1-one:hover .text{ /* animation------ */
+    color: white;
+}
+#stories5 .div1-one:hover .img1{ /* animation------ */
+    transform: scale(1.02);
+}
+
+/* div1 two----------- */
+
+#stories5 .div1-two {
+    overflow: hidden;
+    width: 32.45%;
+    height: 565px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories5 .img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1 -two hover-------------------- */
+
+#stories5 .div1-two:hover .text::before{ /* animation------ */
+    left: 0%;
+}
+#stories5 .div1-two:hover .text{ /* animation------ */
+    color: white;
+}
+#stories5 .div1-two:hover .img2{ /* animation------ */
+    transform: scale(1.02);
+}
+
+/* section stories 6 */
+
+#stories6 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#stories6 .text {
+    padding: 10px 20px 10px 25px;
+    height: 92px;
+    width: 25.5%;
+    position: absolute;
+    bottom: 48px;
+    background: #00f5d0;
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 0px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+#stories6 .text::before{ /* animation*/
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background:#00a39e;
+    transition: 0.3s;
+}
+
+#stories6 h2 {
+    position: relative;
+    line-height: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+
+#stories6 p{
+    position: relative;
+}
+
+#stories6 .icon-arrow {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+#stories6 .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div1-one------------ */
+
+#stories6 .div1-one {
+    overflow: hidden;
+    width: 32.45%;
+    height: 570px;
+    border-bottom-right-radius: 60px;
+}
+
+#stories6 .img1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 60px;
+    transition: 0.3s;
+}
+
+/* div1-one hover------------ */
+
+#stories6 .div1-one:hover .text::before{
+    left: 0%;
+}
+#stories6 .div1-one:hover .text{
+    color: white;
+}
+#stories6 .div1-one:hover .img1{
+    transform: scale(1.02);
+}
+
+/* div1-two----------------- */
+
+#stories6 .div1-two {
+    text-decoration: none;
+    width: 66.25%;
+    height: 570px;
+}
+
+#stories6 .img2 {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-bottom-right-radius: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* div1-two hover---------------- */
+
+#stories6 .div1-two:hover .text::before{
+    left: 0%;
+}
+#stories6 .div1-two:hover .text{
+    color: white;
+}
+
+#stories6 .img2 h1 {
+    margin: 0px;
+    font-size: 85px;
+    font-weight: 900;
+}
+
+#stories6 .img2 p {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+#stories6 .img2 .text-div {
+    padding: 35px 48px;
+    color: black;
+}
+
+/* section view more button -------------------------*/
+
+#view-more {
+    display: flex;
+    margin: 78px 0px 58px 0px;
+    justify-content: center;
+}
+
+#view-more a {
+    background: #00f5d0;
+    color: black;
+    padding: 18px 25px 13px 25px;
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+#view-more .icon-arrow {
+    margin-left: 10px;
+}
+
+/* section follow us--------------------------------- */
+
+#follow-us {
+    height: 418px;
+    border-style: solid;
+    border-color: #00f5d0;
+    border-width: 5px 0px 0px 0px;
+    background: #222222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#follow-us h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 20px 0px 10px 0px;
+}
+
+#follow-us h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+#follow-us .div-icons {
+    margin: 24px;
+    font-size: 38px;
+}
+
+#follow-us  .icon{
+    color: white;
+}
+
+/* section footer------------------ */
+
+#footer{
+    height: 730px;
+    color: white;
+    padding: 70px;
+    padding-right: 130px;
+    opacity: 0.8;
+}
+#footer h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0px;
+}
+#footer .text{
+    width: 17%;
+}
+#footer .text1{
+    width: 70%;
+}
+/* div1------ */
+#footer .div1{
+    display: flex;
+   
+}
+#footer .div1 img{
+    width: 50%;
+}
+
+/* div2------- */
+#footer .div2{
+    display: flex;
+    margin-top: 60px;
+}
+#footer .div2 img{
+    width: 45%;
+}
+
+/* div3---------- */
+#footer .div3{
+    display: flex;
+    margin-top: 60px;
+}
+#footer .div3 .img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footer .div3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+#footer .img-div{
+    margin: 15px;
+    position: relative;
+    top: -15px;
+
+}
+#footer .div3 .img1{
+    width: 60%;
+    height: 90%;
+}
+#footer .div3 .img2{
+    width: 65%;
+    height: 80%;
+}
+#footer .div3 .img3{
+    width: 60%;
+    height: 85%;
+}
+#footer .div3 .img4{
+    width: 45%;
+    height: 80%;
+}
+#footer .div3 .img5{
+    width: 30%;
+    height: 80%;
+}
+#footer .div3 .img6{
+    width: 20%;
+    height: 80%;
+}
+#footer .div3 .img7{
+    width: 30%;
+    height: 85%;
+}
+#footer .div3 .img8{
+    width: 45%;
+    height: 80%;
+}
+#footer .div3 .img9{
+    width: 35%;
+    height: 80%;
+}
+#footer .div3 .img10{
+    width: 40%;
+    height: 80%;
+}
+#footer .div3 .img11{
+    width: 25%;
+    height: 75%;
+}
+#footer .div3 .img12{
+    width: 25%;
+    height: 85%;
+}
+#footer .div3 .img13{
+    width: 35%;
+    height: 60%;
+}
+#footer .div3 .img14{
+    width: 40%;
+    height: 80%;
+}
+#footer .div3 .img15{
+    width: 75%;
+    height: 85%;
+}
+#footer .div3 .img16{
+    width: 25%;
+    height: 80%;
+}
+#footer .div3 .img17{
+    width: 40%;
+    height: 70%;
+}
+#footer .div3 .img18{
+    width: 40%;
+    height: 70%;
+}
+
+/* div4---------------- */
+
+#footer .div4{
+    display: flex;
+}
+#footer .div4 .img{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#footer .div4 img{
+    width: 55%;
+}
+#footer .div4 .img-div{
+    margin-right: 30px;
+    position: relative;
+    top: -15px;
+}
+
+/* section sub footer--------------------- */
+
+#sub-footer{
+    background: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 35px 24px 22px;
+}
+#sub-footer a{
+    margin: 5px 10px 5px 10px ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#sub-footer a:hover{
+    color: #00f5d0;
+}
